@@ -1,0 +1,518 @@
+/* CSS Document */
+*{
+	color:#FFF;
+	font-family:Klavika-Regular;
+}
+
+@font-face{
+	font-family:"Klavika-Regular"; 
+	src:url(Klavika-Regular.otf);
+}
+
+h3{
+	font-family:Klavika-Regular;
+	font-size:16px;
+}
+
+h4{
+	font-family:Klavika-Regular;
+	font-size:12px;
+	margin:0px;
+}
+
+h5{
+	font-family:Klavika-Regular;
+	font-size:15px;
+	padding-top:4px;
+}
+
+body{
+	background-image:url(../images/fondo.png), url(../images/fondo_verde.png);
+	background-repeat:repeat-y, repeat;
+	background-position:center top;
+	margin:auto;
+	width:1024px; 
+}
+
+
+#fotos{
+	width:924px;
+	height:244px;
+	padding:40px 50px 15px; 
+}
+
+#testimonios{
+	width:231px;
+	height:200px;
+	margin:0px 0px 0px 50px;
+	float:left;
+}
+
+#areas{
+	width:462px;
+	height:200px;
+	float:left;
+}
+
+#areas li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	margin:0px;
+}
+
+#areas ul li a{
+	text-decoration:none;
+	background-image:url(../images/botonazul_fb.png);
+	width:160px;
+	height:24px;
+	display:block;
+	margin:0px;
+	padding-top:10px;
+}
+
+#areas ul li a:hover{
+	background-image:url(../images/botonverde_fb.png);
+}
+
+#encuentranos{
+	width:322px;
+	height:57px;
+	background-image:url(../images/boton_fb.png);
+	background-repeat:no-repeat;
+	margin: 20px 0px 13px;
+	background-position:center;
+}
+
+.enc{
+	margin:0px;
+	padding-left:129px;
+	margin-top:-5px;
+}
+	
+#noticias{
+	width:250px;
+	height:190px;
+	margin:0px 30px 0px 0px;
+	float:left;
+        background-color: #FFF;
+        overflow: scroll;
+}
+
+nav li{
+	float:left;
+	background-image:url(../images/boton_fondo.png);
+	width:170px;
+	height:40px;
+	list-style:none;
+	text-align:center;
+	padding:10px 0px;
+}
+
+
+#logo{
+	width:174px;
+	padding:0px;
+}
+
+nav ul{
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li a{
+	text-decoration:none;
+}
+
+footer{
+	border-top:#BFD330 solid 2px;
+	border-shadow:5px;
+}
+
+#vision{
+	width:230px;
+	height:140px;
+	margin:0px 0px 0px 50px;
+	float:left
+}
+
+#mision{
+	width:230px;
+	height:140px;
+	float:left;
+	margin:0px 0px 0px 10px;
+}
+
+#lista_menu{
+	width:200px;
+	height:120;
+	float:left;
+	list-style:none;
+	margin:0px 0px 0px 0px;
+}
+
+#lista_menu ul li{
+	list-style:none;
+}
+
+#lista_menu ul li a{
+	text-decoration:none
+}
+
+#lista_menu ul li a:hover{
+	color:#BFD330;
+}
+
+#informacion{
+	width:180px;
+	height:55px;
+	float:right;
+	margin:20px 50px 0px 0px;
+	background-image:url(../images/logofooter.png);
+	background-repeat:no-repeat;
+	background-position:right top;
+	padding-top:50px;
+	padding-left:50px;
+	text-align:right;
+}
+
+.clear{
+	clear:both;
+}
+
+#historia{
+	width:938px;
+	height:268px;
+	float:left;
+	margin-left:50px;
+	margin-top:30px;
+	background-image:url(../images/historia.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#fotos_quienes{
+	width:552px;
+	height:172px;
+	float:left;
+	margin: 15px 0px 18px 50px;
+	background-image:url(../images/foto_quienes.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+#areas_facebook{
+	width:369px;
+	height:172px;
+	float:right;
+	margin-right:50px;
+}
+
+#areas_facebook li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	margin:0px;
+}
+
+#areas_facebook ul li a{
+	text-decoration:none;
+	background-image:url(../images/botonazul_fb.png);
+	width:160px;
+	height:24px;
+	display:block;
+	margin:0px;
+	padding-top:10px;
+}
+
+#areas_facebook ul li a:hover{
+	background-image:url(../images/botonverde_fb.png);
+}
+
+#comunidades1{
+	width:924px;
+	height:296px;
+	margin:50px 50px 0px 50px;
+	background-image:url(../images/comunidades1.png);
+	background-position:left;
+	background-repeat:no-repeat;
+}
+
+#comunidades2{
+	width:500px;
+	height:197px;
+	background-image:url(../images/comunidades2.png);
+	background-position:left top;
+	background-repeat:no-repeat;
+	margin-left:50px;
+        float:left;
+}
+
+#oracion{
+	width:924px;
+	height:273px;
+	float:left;
+	background-image:url(../images/oracion.png);
+	background-repeat:no-repeat;
+	background-position:center;
+	margin:50px 50px 0px 50px;
+}
+
+#fotos_nosotros{
+	width:506px;
+	height:161px;
+	float:left;
+	margin: 50px 0px 15px 50px;
+	background-image:url(../images/fotos3.png);
+	background-position:center;
+	background-repeat:no-repeat;
+}
+
+
+
+#areas_facebook li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	margin:0px;
+}
+
+#areas_facebook ul li a{
+	text-decoration:none;
+	background-image:url(../images/botonazul_fb.png);
+	width:160px;
+	height:24px;
+	display:block;
+	margin:0px;
+	padding-top:10px;
+}
+
+#areas_facebook ul li a:hover{
+	background-image:url(../images/botonverde_fb.png);
+}
+
+#areas_recursos{
+	width:369px;
+	height:172px;
+	float:right;
+	margin-right:50px;
+	margin-top:28px;
+}
+
+#areas_recursos li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	margin:0px;
+}
+
+#areas_recursos ul li a{
+	text-decoration:none;
+	background-image:url(../images/botonazul_fb.png);
+	width:160px;
+	height:24px;
+	display:block;
+	margin:0px;
+	padding-top:10px;
+}
+
+#areas_recursos ul li a:hover{
+	background-image:url(../images/botonverde_fb.png);
+}
+
+#discipulado{
+	width:268px;
+	height:266px;
+	float:left;
+	margin-left:50px;
+	margin-top:50px;
+}
+
+#discipulado li{
+	list-style:none;
+	text-align:left;
+	float:left;
+}
+
+#discipulado ul li a{
+	text-decoration:none;
+}
+
+#cursos{
+	width:268px;
+	height:266px;
+	float:left;
+	margin-left:50px;
+	margin-top:50px;
+}
+
+#cursos li{
+	list-style:none;
+	text-align:left;
+	float:left;
+}
+
+#cursos ul li a{
+	text-decoration:none;
+}
+
+#fotos_recursos{
+	width:380px;
+	height:200px;
+	float:right;
+	margin:50px 50px 0px 0px;
+}
+
+#contacto{
+	width:260px;
+	height:243px;
+	margin-left:50px;
+	margin-top:50px;
+	margin-right:0px;
+	background-image:url(../images/contacto.png);
+	background-position:top left;
+	background-repeat:no-repeat;
+}
+
+#mapa{
+	float:right;
+	margin:0px 25px;
+}
+
+#areas_fb{
+	width:369px;
+	height:172px;
+	float:right;
+	margin:-50px 50px 20px;
+}
+
+#areas_fb li{
+	float:left;
+	list-style:none;
+	text-align:center;
+	margin:0px;
+}
+
+#areas_fb ul li a{
+	text-decoration:none;
+	background-image:url(../images/botonazul_fb.png);
+	width:160px;
+	height:24px;
+	display:block;
+	margin:0px;
+	padding-top:10px;
+}
+
+#areas_fb ul li a:hover{
+	background-image:url(../images/botonverde_fb.png);
+}
+
+#fotos {
+  display: none;
+}
+
+#fotos .slidesjs-navigation {
+  margin-top:5px;
+}
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+  background-image: url(../images/slider/btns-next-prev.png);
+  background-repeat: no-repeat;
+  display:block;
+  width:12px;
+  height:18px;
+  overflow: hidden;
+  text-indent: -9999px;
+  float: left;
+  margin-right:5px;
+}
+
+a.slidesjs-next {
+  margin-right:10px;
+  background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+  background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+  background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+  background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+  width:15px;
+  background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+  background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+  width:18px;
+  background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+  background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+  margin: 7px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(img/pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+#fotos a:link,
+#fotos a:visited {
+  color: #333
+}
+
+#fotos a:hover,
+#fotos a:active {
+  color: #9e2020
+}
+
+#cita {
+    float:right; 
+    width:400px;
+}
+
+.fb_fix{
+   top: 450px;
+   position: absolute;
+   right: 150px;
+}
