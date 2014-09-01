@@ -17,5 +17,5 @@
   </ul>
   </div>
   <div id="informacion"><p><h4>Tel/Fax: +(506) 2225-3353
-  info@vidajovencr.org</h4></p></div>
+  info@vidajoven.cr</h4></p></div>
 </footer>
